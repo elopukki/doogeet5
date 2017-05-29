@@ -15,14 +15,14 @@
 #
 
 # Device path
-LOCAL_PATH := device/lenovo/A7010a48
+LOCAL_PATH := device/doogee/T5
 
 # Device board elements
 include $(LOCAL_PATH)/PlatformConfig.mk
 include $(LOCAL_PATH)/board/*.mk
 
 # Device vendor board
--include vendor/lenovo/A7010a48/BoardConfigVendor.mk
+-include vendor/doogee/T5/BoardConfigVendor.mk
 
 #######################################################################
 
@@ -58,7 +58,7 @@ TARGET_SYSTEM_PROP := $(LOCAL_PATH)/system.prop
 TARGET_USE_CUSTOM_LUN_FILE_PATH := sys/class/android_usb/android0/f_mass_storage/lun/file
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := A7010a48
+TARGET_OTA_ASSERT_DEVICE := T5
 
 # Engineer Mode
 PRODUCT_PACKAGES += \
