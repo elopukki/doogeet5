@@ -21,16 +21,16 @@ $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, $(LOCAL_PATH)/device_A7010a48.mk)
+$(call inherit-product, $(LOCAL_PATH)/device_T5.mk)
 
 # Device display
-TARGET_SCREEN_HEIGHT := 1920
-TARGET_SCREEN_WIDTH := 1080
+TARGET_SCREEN_HEIGHT := 1280
+TARGET_SCREEN_WIDTH := 720
 
 # Device identifier
-PRODUCT_BRAND := Lenovo
-PRODUCT_DEVICE := A7010a48
-PRODUCT_MANUFACTURER := Lenovo
-PRODUCT_MODEL := K4 NOTE
-PRODUCT_NAME := cm_A7010a48
-PRODUCT_RELEASE_NAME := A7010a48
+PRODUCT_BRAND := Doogee
+PRODUCT_DEVICE := T5
+PRODUCT_MANUFACTURER := Doogee
+PRODUCT_MODEL := KT5
+PRODUCT_NAME := T5
+PRODUCT_RELEASE_NAME :=T5
